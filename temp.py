@@ -1,12 +1,4 @@
-"""
-program to convert celsius to fahrenheint
-"""
-def celsius_to_farenheint(celsius):
-    """ convert value given to fahrenheit"""
-    fah = celsius * 9/5 + 32
-    return fah
-
-
+"""Python Statement to convert 25 degree celsius to farenheit"""
 celsius = 25
-fah = celsius_to_farenheint(celsius)
-print(f"{celsius} degree is {fah} Farenheint")
+fah = celsius * 9/5 + 32
+print(f"{25} celsius degree is {fah}farenheit")
