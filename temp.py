@@ -12,7 +12,7 @@ def farenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit- 32) * 5/9
     return celsius
 
-celsius = 25
+celsius = 82
 fah = celsius * 9/5 + 32
 print(f"{celsius} celsius degree is {fah} fahrenheit")
 
